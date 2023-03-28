@@ -2,10 +2,10 @@
 .smoothie,
 .blueberry {
 
-    font-size: 18px;
+    font-size: 20px;
     background-color: hwb(350 61% 5%);
 color: white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Times New Roman', serif;
 
 }
 
@@ -15,6 +15,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background-color: #f78fa0;
 color: white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Times New Roman', serif;
 
 }
