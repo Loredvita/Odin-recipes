@@ -1,12 +1,10 @@
 .strawberry,
 .smoothie,
 .blueberry {
-
     font-size: 20px;
     background-color: hwb(350 61% 5%);
-color: white;
-font-family: 'Times New Roman', serif;
-
+    color: white;
+    font-family: 'Times New Roman', serif;
 }
 
 .home-1,
@@ -14,7 +12,6 @@ font-family: 'Times New Roman', serif;
 .home-3 {
     font-size: 20px;
     background-color: #f78fa0;
-color: white;
-font-family: 'Times New Roman', serif;
-
+    color: white;
+    font-family: 'Times New Roman', serif;
 }
