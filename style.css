@@ -1,11 +1,13 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #FFE9E8;
+}
 .recipes-button {
     font-size: 20px;
 background-color: hwb(350 61% 5%);
 color: white;
 font-family: 'Times New Roman', serif;
-
-  }
-
+}
 .home {
    font-size: 20px;
     background-color: #f78fa0;
@@ -31,4 +33,11 @@ font-family: 'Times New Roman', serif;
 .unicorn {
   text-align: center;
   font-size: 22px;
+}
+.instrucion {
+color: #DE3163;
+font-weight: 800;
+}
+.title{
+  font-size: 30px;
 }
