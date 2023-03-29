@@ -1,7 +1,8 @@
-   html {
+   body {
   font-family: Georgia, serif;
   background-color: #FFE9E8;
-    }
+margin: 0%;
+}
 
     .recipes-button {
     font-size: 20px;
