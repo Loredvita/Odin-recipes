@@ -1,4 +1,7 @@
-
+   body {
+  font-family: Georgia, serif;
+  background-color: #FFE9E8;
+    }
 .recipes-button {
     font-size: 20px;
 background-color: hwb(350 61% 5%);
