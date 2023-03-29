@@ -3,7 +3,9 @@
   background-color: #FFE9E8;
 margin: 0%;
 }
-
+html{
+  margin: 1%;
+}
     .recipes-button {
     font-size: 20px;
 background-color: hwb(350 61% 5%);
