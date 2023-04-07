@@ -1,45 +1,45 @@
-   body {
+body {
   font-family: Georgia, serif;
 }
 html {
   background-color: #FFE9E8;
 }
-    .recipes-button {
-    font-size: 20px;
-background-color: hwb(350 61% 5%);
-color: white;
-font-family: 'Times New Roman', serif;
+.recipes-button {
+  font-size: 20px;
+  background-color: hwb(350 61% 5%);
+  color: white;
+  font-family: 'Times New Roman', serif;
 }
 .home {
-   font-size: 20px;
-    background-color: #f78fa0;
-    color: red;
-    font-family: 'Times New Roman', serif;
-  }
+  font-size: 20px;
+  background-color: #f78fa0;
+  color: red;
+  font-family: 'Times New Roman', serif;
+}
 .center-words {
-    color: #FF847C;
+  color: #FF847C;
   font-weight: 800;
- font-style: italic; 
+  font-style: italic; 
 }
 .titulo,
-.encabezado {
+.gif{
   font-size: 35px;
   text-align: center;
 }
 .strawberry,
 .smoothie {
   font-size: 35px;
-  }
-  .cupcake {
-    font-size: 30px;
-  }
+}
+.cupcake {
+  font-size: 30px;
+}
 .unicorn {
   text-align: center;
   font-size: 22px;
 }
 .instrucion {
-color: #DE3163;
-font-weight: 800;
+  color: #DE3163;
+  font-weight: 800;
 }
 .title{
   font-size: 30px;
@@ -59,7 +59,18 @@ font-weight: 800;
   background: peachpuff;
   border: 2px solid pink;
   height: 50px;
-  flex: 0 1 0;
-  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 5px;
+  flex: 0 1 0;
+
+}
+.gif{
+  background: peachpuff;
+  border: 2px solid pink;
+  height: 200px;
+  margin-left: 485px;
+  margin-right: 485px;
+  padding: 5px;
+  flex: 0 1 0;
 }
