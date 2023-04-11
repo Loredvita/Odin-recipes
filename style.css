@@ -22,10 +22,6 @@ html {
   font-style: italic; 
 }
 .titulo,
-.gif{
-  font-size: 35px;
-  text-align: center;
-}
 .strawberry,
 .smoothie {
   font-size: 35px;
@@ -44,6 +40,10 @@ html {
 .title{
   font-size: 30px;
 }
+.gitpage{
+  background-color: rgb(250, 219, 162);
+  color: rgb(184, 92, 123);
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -58,7 +58,7 @@ html {
   flex: 1 1 0%;
   flex-basis: 50px;
 }
- .encabezado{
+.encabezado{
   background: peachpuff;
   border: 2px solid pink;
   height: 50px;
@@ -78,13 +78,22 @@ html {
   flex: 0 1 0;
 }
 */
+header{
+  background-color: pink;
+  padding: 5px;
+  margin: 1%;
+}
 aside {
   background-color:rgb(250, 219, 162);
-  padding: 10px;
-  margin: 10px;
+  padding: 1px;
+  margin: 0%;
   text-align: center;
 }
 section{
   background-color: #f7b9e2;
+  font-size: 15px;
+  text-align: center;
+  margin: 0
 }
+
 
