@@ -46,7 +46,8 @@ html {
 }
 .container {
   display: flex;
- flex-direction: row;
+  flex-direction: row;
+  /*Para recordar este elemento*/
 }
 .container > div {
   padding: 4px;
@@ -55,6 +56,7 @@ html {
   background: peachpuff;
   border: 2px solid #DE3163;
   flex: 1 1 0%;
+  flex-basis: 50px;
 }
  .encabezado{
   background: peachpuff;
