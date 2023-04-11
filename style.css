@@ -68,7 +68,7 @@ html {
   flex: 0 1 0;
 
 }
-.gif{
+/* en pausa, for now.gif{
   background: peachpuff;
   border: 2px solid pink;
   height: 200px;
@@ -77,3 +77,14 @@ html {
   padding: 5px;
   flex: 0 1 0;
 }
+*/
+aside {
+  background-color:rgb(250, 219, 162);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+section{
+  background-color: #f7b9e2;
+}
+
