@@ -25,6 +25,7 @@ html {
 .strawberry,
 .smoothie {
   font-size: 30px;
+  align-items: stretch;
 }
 .cupcake {
   font-size: 30px;
@@ -68,7 +69,8 @@ html {
   margin-right: 40px;
   padding: 8px;
   flex: 0 1 0;
-
+  align-items: stretch;
+  justify-content: center;
 }
 /* en pausa, for now.gif{
   background: peachpuff;
