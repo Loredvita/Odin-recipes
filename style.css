@@ -24,26 +24,25 @@ html {
 .titulo,
 .strawberry,
 .smoothie {
-  font-size: 35px;
+  font-size: 30px;
 }
 .cupcake {
   font-size: 30px;
 }
 .unicorn {
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: 700;
 }
 .instrucion {
   color: #DE3163;
   font-weight: 800;
 }
-.title{
-  font-size: 30px;
-}
 .gitpage{
-  background-color: rgb(250, 219, 162);
-  color: rgb(184, 92, 123);
+  background-color: rgb(250, 234, 162);
+  color: #cf3939;
 }
+/*Box model*/
 .container {
   display: flex;
   flex-direction: row;
@@ -57,14 +56,15 @@ html {
   border: 2px solid #DE3163;
   flex: 1 1 0%;
   flex-basis: 50px;
+  justify-content: center;
 }
 .encabezado{
   background: peachpuff;
   border: 2px solid pink;
   height: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 8px;
   flex: 0 1 0;
 
 }
@@ -78,24 +78,25 @@ html {
   flex: 0 1 0;
 }
 */
+/*Flexbox*/
 header{
   background-color: pink;
-  padding: 5px;
-  margin: 1%;
+  padding: 7px;
+  margin: 0.7%;
 }
 aside {
   background-color:rgb(250, 219, 162);
   padding: 1px;
-  margin: 0%;
   text-align: center;
-  margin: 0.5%;
+  margin: 0.7%;
 }
 section{
   background-color: #f7bfe4;
   font-size: 16px;
   text-align: center;
-  margin: 0;
+  margin: 0.7%;
   font-style: italic;
+  justify-content: center;
  
 }
  section .page {
