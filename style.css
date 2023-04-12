@@ -46,6 +46,8 @@ html {
 .container {
   display: flex;
   flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
   /*Para recordar este elemento*/
 }
 .container > div {
