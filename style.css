@@ -2,28 +2,27 @@ body {
   font-family: Georgia, serif;
 }
 html {
-  background-color: #ffd8df;
+  background-color: rgb(255, 216, 223);
 }
 @media (prefers-color-scheme: dark){}
-@media (prefers-color-scheme: light){}
 .recipes-button {
   font-size: 20px;
-  background-color: hwb(350 61% 5%);
-  color: white;
+  background-color: rgb(242, 156, 170);
+  color: rgb(255, 255, 255);
   font-family: 'Times New Roman', serif;
 }
 .home {
   font-size: 20px;
-  background-color: #f78fa0;
-  color: red;
+  background-color: rgb(247, 143, 160);
+  color: rgb(255, 0, 0);
   font-family: 'Times New Roman', serif;
 }
 .center-words {
-  color: #FF847C;
+  color: rgb(255, 132, 124);
   font-weight: 800;
   font-style: italic; 
 }
-.titulo,
+.titulo-inicial,
 .strawberry,
 .smoothie {
   font-size: 30px;
@@ -38,7 +37,7 @@ html {
   font-weight: 700;
 }
 .instrucion {
-  color: #DE3163;
+  color: rgb(222, 49, 99);
   font-weight: 800;
 }
 .gitpage{
@@ -57,15 +56,15 @@ html {
   padding: 4px;
   margin: 2px;
   text-align: center;
-  background: peachpuff;
-  border: 2px solid #DE3163;
+  background: rgb(255, 218, 185);
+  border: 2px solid rgb(222, 49, 99);
   flex: 1 1 0%;
   flex-basis: 50px;
   justify-content: center;
 }
 .encabezado{
-  background: peachpuff;
-  border: 2px solid pink;
+  background: rgb(255, 218, 185);
+  border: 2px solid rgb(255, 192, 203);
   height: 50px;
   margin-left: 40px;
   margin-right: 40px;
@@ -86,7 +85,7 @@ html {
 */
 /*Flexbox*/
 header{
-  background-color: pink;
+  background-color: rgb(255, 192, 203);
   padding: 7px;
   margin: 0.7%;
 }
@@ -97,7 +96,7 @@ aside {
   margin: 0.7%;
 }
 section{
-  background-color: #f7bfe4;
+  background-color: rgb(247, 191, 228);
   font-size: 16px;
   text-align: center;
   margin: 0.7%;
