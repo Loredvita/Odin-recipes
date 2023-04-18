@@ -4,7 +4,7 @@ body {
 html {
   background-color: rgb(255, 216, 223);
 }
-@media (prefers-color-scheme: dark) { html { background-color: rgb(44 14 36); } }
+@media (prefers-color-scheme: dark) { html { background-color: rgb(255, 216, 223); } }
 .recipes-button {
   font-size: 20px;
   background-color: rgb(242, 156, 170); 
