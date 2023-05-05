@@ -94,12 +94,14 @@ html {
   width: 1287px;
   height: 450px;
   align-content:flex-start;
-
 }
 .titulo-inicial{
   display: flex;
-  color: palevioletred;
-  background-color: pink;
-  margin: 3%;
+  color: rgb(255, 194, 204);
+  background-color: rgba(219, 85, 130, 0.5);;
+  margin: 2%;
   padding: 1%;
+  font-size: 30px;
+  font-weight:700;
+  font-style: italic;
 }
