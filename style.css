@@ -118,10 +118,9 @@ html {
   flex-direction: row;
   gap: 40px;
   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pastel-sunset-sky-amy-sorvillo.jpg);
-  padding: 2%;
+  padding: 1%;
   width: auto;
   height: auto;
-  border-radius: 3%;
 }
 .container1-0{
   display: flex;
@@ -131,6 +130,8 @@ html {
   height: auto;
   box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
   align-content:flex-end;
+  border-radius: 3%;
+  padding: 1%;
 }
 .recipes-button{
   display: flex;
@@ -143,11 +144,12 @@ html {
   align-items:center;
   text-align: center;
   align-content:flex-end;
+  border-radius: 3%;
 }
 a{
   display: flex;
   flex-direction: column;
-  
+  border-radius: 16%;
 }
 button{
   display: flex;
@@ -156,6 +158,9 @@ button{
   width: auto;
   height: auto;
   color: #cf3939;
-
-
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  align-content:flex-end;
+  width: 98%;
 }
