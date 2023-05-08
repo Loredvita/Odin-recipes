@@ -6,12 +6,6 @@ html {
   background-color: rgb(255, 216, 223);
 }
 @media (prefers-color-scheme: dark) { html { background-color: rgb(255, 216, 223); } }
-.recipes-button {
-  font-size: 20px;
-  background-color: rgb(242, 156, 170); 
-  color: rgb(255, 255, 255);
-  font-family: 'Times New Roman', serif;
-}
 .home {
   font-size: 20px;
   background-color: rgb(247, 143, 160);
@@ -125,4 +119,20 @@ html {
   gap: 50px;
   margin-left: 1%;
   margin-left: 1%;
+}
+.container1-0{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.recipes-button {
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(242, 156, 170); 
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', serif;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
 }
