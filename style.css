@@ -119,6 +119,10 @@ html {
   text-align: center;
   font-size: 30px;
 }
-.container1-0{
-  background-image: url(https://www.allrecipes.com/thmb/t93Gghc6Q8rxJfEe1otaFItL8WU=/750x0/filters:no_upscale);
+.containermini{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 1%;
+  margin-left: 1%;
 }
