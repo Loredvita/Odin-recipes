@@ -129,7 +129,6 @@ html {
   justify-content:center;
   width: auto;
   height: auto;
-  gap: 5px;
   box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
   align-content:flex-end;
 }
@@ -144,5 +143,19 @@ html {
   align-items:center;
   text-align: center;
   align-content:flex-end;
+}
+a{
+  display: flex;
+  flex-direction: column;
+  
+}
+button{
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  width: auto;
+  height: auto;
+  color: #cf3939;
+
 
 }
