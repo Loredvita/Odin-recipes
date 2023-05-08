@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 html {
-  background-color: rgb(255, 216, 223);
+  background-color: rgb(240, 176, 188);
 }
 @media (prefers-color-scheme: dark) { html { background-color: rgb(255, 216, 223); } }
 .home {
@@ -129,8 +129,11 @@ html {
   justify-content:center;
   width: auto;
   height: auto;
+  gap: 5px;
+  box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
+  align-content:flex-end;
 }
-.recipes-button {
+.recipes-button{
   display: flex;
   font-size: 20px;
   text-align: center;
@@ -140,4 +143,6 @@ html {
   justify-content: center;
   align-items:center;
   text-align: center;
+  align-content:flex-end;
+
 }
