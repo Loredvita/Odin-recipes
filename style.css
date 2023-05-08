@@ -118,14 +118,13 @@ html {
   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pastel-sunset-sky-amy-sorvillo.jpg);
   flex-direction: column;
   width: 1343px;
-  height: 470px;
+  height: 509px;
+  padding: 1%;
 }
 .containermini{
   display: flex;
   flex-direction: row;
-  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pastel-sunset-sky-amy-sorvillo.jpg);
   gap: 30px;
-  margin: 1%;
   width: 100;
   height: 100;
 }
