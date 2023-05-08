@@ -87,7 +87,7 @@ html {
 }
 .titulo-inicial{
   display: flex;
-  color:  hsl(64, 82%, 78%);
+  color:  hsl(27, 94%, 79%);
   background-color: #ffadd380;;
   margin: 2%;
   padding: 1%;
@@ -99,6 +99,7 @@ html {
   align-items:center;
   border-radius: 4%;
   box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
+  text-shadow: 3px 2px 6px rgb(90, 19, 6);
 }
 .center{
   display: flex;
