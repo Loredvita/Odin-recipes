@@ -45,13 +45,11 @@ html {
   background-color: rgb(250, 234, 162);
   color: #cf3939;
 }
-/*Box model*/
 .container {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: center;
-  /*Para recordar este elemento*/
 }
 .container > div {
   padding: 4px;
@@ -74,17 +72,6 @@ html {
   align-items: stretch;
   justify-content: center;
 }
-/* en pausa, for now.gif{
-  background: peachpuff;
-  border: 2px solid pink;
-  height: 200px;
-  margin-left: 485px;
-  margin-right: 485px;
-  padding: 5px;
-  flex: 0 1 0;
-}
-*/
-/*Flexbox*/
 .container1{
   display: flex;
   background-image: url(https://gifdb.com/images/high/pinky-and-the-brain-keyboard-typing-sb81sja47ahac1l1.webp);
@@ -95,12 +82,12 @@ html {
   width: 1343px;
   height: 470px;
   align-content:flex-start;
-  box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
+  box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
   margin-bottom: 1%;
 }
 .titulo-inicial{
   display: flex;
-  color: rgb(255, 194, 204);
+  color:  hsl(64, 82%, 78%);
   background-color: #ffadd380;;
   margin: 2%;
   padding: 1%;
@@ -124,4 +111,13 @@ html {
   margin: 4%;
   flex-direction: column;
   box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
+}
+.container1-0{
+  color: rgb(247, 160, 175);;
+  
+  
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(248, 118, 172, 0.3);
+
 }
