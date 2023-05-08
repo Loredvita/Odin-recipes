@@ -95,11 +95,13 @@ html {
   width: 1343px;
   height: 470px;
   align-content:flex-start;
+  box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
+  margin-bottom: 1%;
 }
 .titulo-inicial{
   display: flex;
   color: rgb(255, 194, 204);
-  background-color: rgba(219, 85, 130, 0.5);;
+  background-color: #ffadd380;;
   margin: 2%;
   padding: 1%;
   font-size: 30px;
@@ -109,6 +111,7 @@ html {
   justify-content: center;
   align-items:center;
   border-radius: 4%;
+  box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
 }
 .center{
   display: flex;
@@ -120,4 +123,5 @@ html {
   padding: 2%;
   margin: 4%;
   flex-direction: column;
+  box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
 }
