@@ -108,7 +108,7 @@ html {
   box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
 }
 .containerT{
-  color: hsl(325, 79%, 58%);
+  color:rgb(221, 65, 50);
   text-shadow: 3px 2px 6px rgb(90, 19, 6);
   text-align: center;
   font-size: 30px;
@@ -124,7 +124,8 @@ html {
 .containermini{
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  justify-content: center;
+  gap: 30px;
   width: 80;
   height: 80;
 }
@@ -152,11 +153,6 @@ html {
   text-align: center;
   align-content:flex-end;
   border-radius: 3%;
-}
-a{
-  display: flex;
-  flex-direction: column;
-  border-radius: 16%;
 }
 button{
   display: flex;
