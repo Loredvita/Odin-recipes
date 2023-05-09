@@ -92,7 +92,7 @@ html {
   justify-content: center;
   align-items:center;
   border-radius: 4%;
-  box-shadow: 1px 9px 6px  rgba(36, 3, 18, 0.502);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   text-shadow: 3px 2px 6px rgb(90, 19, 6);
 }
 .center{
@@ -114,6 +114,7 @@ html {
   font-size: 30px;
   background-color: rgb(250, 234, 162,0.8);
   margin-bottom: 1%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .containermax{
   display: flex;
@@ -140,10 +141,10 @@ html {
   width: 97;
   height: 90;
   height: auto;
-  box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
   align-content:flex-end;
   border-radius: 3%;
   padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .recipes-button{
   display: flex;
