@@ -101,13 +101,13 @@ html {
   text-shadow: 3px 2px 6px rgb(90, 19, 6);
   text-align: center;
   font-size: 30px;
-  background-color: rgb(250, 234, 162,0.8);
+  background-color: rgba(250, 177, 189, 0.8);
   margin-bottom: 1%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .containermax{
   display: flex;
-  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pastel-sunset-sky-amy-sorvillo.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/787/102/original/abstract-background-luxury-silk-pink-texture-velvet-material-with-3d-render-3d-illustration-mock-up-satin-wave-shape-forms-for-product-display-background-for-object-in-modern-free-vector.jpg);
   flex-direction: column;
   width: auto;
   height: auto;
@@ -167,12 +167,13 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(222, 49, 99,0.5);;
+  background-color: rgba(240, 82, 127, 0.6);;
 }
 .imgcircule{
   display: flex;
   border-radius: 50%;
-  box-shadow: 10% 10%
+  box-shadow: 10% 10%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .Rname{
   color: rgb(255, 132, 124);
@@ -181,4 +182,5 @@ button{
   font-size: 30px;
   align-items: stretch;
   background-color: rgb(255, 192, 203,0.8);
+  box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
 } 
