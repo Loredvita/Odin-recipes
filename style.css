@@ -187,6 +187,10 @@ button{
   background-color: rgb(255, 192, 203,0.8);
   box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
 } 
+.Shlow{
+  display: flex;
+  margin: 1%;
+}
 .containermax2{
   display: flex;
   flex-direction: row;
@@ -197,4 +201,16 @@ button{
   margin-right: 2%;
   width: auto;
   height: auto;
+  gap: 20%;
+  
+}
+.Directions{
+  display: flex;
+  margin: 2%;
+  flex-direction: column;
+  border: rgb(207, 57, 57);
+  align-items: center;
+  text-align: center;
+  gap: 50%;
+
 }
