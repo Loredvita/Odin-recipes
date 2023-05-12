@@ -208,15 +208,24 @@ button{
   background-image: url(https://static.vecteezy.com/system/resources/previews/002/787/102/original/abstract-background-luxury-silk-pink-texture-velvet-material-with-3d-render-3d-illustration-mock-up-satin-wave-shape-forms-for-product-display-background-for-object-in-modern-free-vector.jpg);
   border-radius: 5%;
 }
-.Directions,
-.Ingredients{
+.Directions{
   display: flex;
-  margin: 2%;
   flex-direction: column;
   border: rgb(207, 57, 57);
   align-items: center;
   text-align: center;
-  gap: 50%;
+  margin-right: 8%;
+  justify-content: center;
+}
+.Ingredients{
+  display: flex;
+  flex-direction: column;
+  border: rgb(207, 57, 57);
+  align-items: center;
+  text-align: center;
+  margin-left: 8%;
+  margin-bottom: 1%;
+  justify-content: center;
 }
 .headtop{
   color: rgb(255, 132, 124);
@@ -233,5 +242,4 @@ button{
   border: rgb(207, 57, 57);
   align-items: center;
   text-align: center;
-  
 }
