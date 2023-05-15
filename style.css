@@ -10,7 +10,6 @@ html {
   width: 99%;
   text-align: center;
 }
-@media (max-width: 800px) {.containermax }
 .home {
   font-size: 20px;
   background-color: rgb(247, 143, 160);
