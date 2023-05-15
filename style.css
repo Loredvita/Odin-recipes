@@ -6,6 +6,11 @@ html {
   background-color: rgb(240, 176, 188);
 }
 @media (prefers-color-scheme: dark) { html { background-color: rgb(255, 216, 223); } }
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+@media (max-width: 800px) {.containermax }
 .home {
   font-size: 20px;
   background-color: rgb(247, 143, 160);
