@@ -152,15 +152,12 @@ html {
 button{
   display: flex;
   flex-direction: column;
-  padding: 3%;
-  width: auto;
-  height: auto;
-  color: rgb(207, 57, 57);
+  padding: 1%;
   justify-content: center;
   align-items:center;
   text-align: center;
   width: 98%;
-  margin-top: 1%;
+  margin: 1%;
 }
 .containermax1{
   display: flex;
@@ -169,7 +166,7 @@ button{
   background-color: rgba(240, 82, 127, 0.4);
   box-shadow: 1px 8px 6px  rgba(36, 3, 18, 0.502);
   margin: 1%;
-  height: 270px;
+  height: 260px;
 }
 .imgcircule{
   display: flex;
@@ -252,7 +249,7 @@ button{
   text-align: center;
 }
 .home {
-  font-size: 25px;
+  font-size: 25px; 
   background-color: rgb(247, 143, 160);
   color: rgb(255, 0, 98);
   font-family: 'Times New Roman', serif;
