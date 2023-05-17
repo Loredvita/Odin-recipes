@@ -10,12 +10,6 @@ html {
   width: 99%;
   text-align: center;
 }
-.home {
-  font-size: 20px;
-  background-color: rgb(247, 143, 160);
-  color: rgb(255, 0, 98);
-  font-family: 'Times New Roman', serif;
-}
 .cupcake {
   font-size: 30px;
 }
@@ -161,11 +155,10 @@ button{
   padding: 3%;
   width: auto;
   height: auto;
-  color: #cf3939;
+  color: rgb(207, 57, 57);
   justify-content: center;
   align-items:center;
   text-align: center;
-  align-content:flex-end;
   width: 98%;
   margin-top: 1%;
 }
@@ -257,4 +250,18 @@ button{
   border: rgb(207, 57, 57);
   align-items: center;
   text-align: center;
+}
+.home {
+  font-size: 25px;
+  background-color: rgb(247, 143, 160);
+  color: rgb(255, 0, 98);
+  font-family: 'Times New Roman', serif;
+  font-style:italic ;
+  align-items: center;
+  text-align: center;
+}
+.containerButtom{
+  display: flex;
+  flex-direction: column;
+  
 }
